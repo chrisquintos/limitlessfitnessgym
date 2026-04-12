@@ -5,6 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Chris Quintos">
 <meta name="description" content="Limitless Fitness is your ultimate destination for achieving your fitness goals">
+
+	<meta name="keywords" content="fitness, workout, training, gym, health, wellness">
+	
+	<meta name="robots" content="index, follow">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Limitless Fitness">
+	<meta name="twitter:description" content="Explore Limitless Fitness and their training programs">
+
+
+	<meta property="og:title" content="Limitless Fitness">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.limitlessfitness.com">
+
+
+
+
 <title>Limitless Fitness</title>
 
 </head>
@@ -12,7 +29,7 @@
 <!-- add a skip link that skips to the main content -->
 <!-- add correct heading levels -->
 
-<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#main" class="skip-link">Skip to main content</a>
   <header>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#007BFF" stroke-linecap="round" stroke-linejoin="round" width="75" height="75" stroke-width="1.5">
       <path d="M2 12h1"></path>
@@ -43,7 +60,7 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
-  <main>
+  <main id="main">
     <section>
       <h2>About Us</h2>
       <p>Welcome to Limitless Fitness, where fitness meets community. Our state-of-the-art facility is designed to inspire and support you at every stage of your journey. Whether you're a beginner or a seasoned athlete, our expert trainers and diverse classes provide the perfect environment to achieve your personal best.</p>
@@ -97,11 +114,11 @@
         <p>Fill out the form below to kickstart your fitness journey:</p>
 <!--add accessibility to the form-->
 <form action="post" method="https://wp.zybooks.com/form-viewer.php" aria-label="Membership Sign-Up Form">
-        <label for="full-name">Full Name</label>
-        <input type="text" id="full-name" name="full-name" required>
-        <label for="email">Email Address</label>
+        <label for="fullName">Full Name <span class="required" aria-hidden="true">*</span></label>
+        <input type="text" id="fullName" name="fullName" required>
+        <label for="email">Email Address <span class="required" aria-hidden="true">*</span></label>
         <input type="email" id="email" name="email" required>
-        <label for="phone">Phone Number</label>
+        <label for="phone">Phone Number <span class="required" aria-hidden="true">*</span></label>
         <input type="tel" id="phone" name="phone" required>
         <label for="membership-type">Membership Type</label>
         <select id="membership-type" name="membership-type" required>
